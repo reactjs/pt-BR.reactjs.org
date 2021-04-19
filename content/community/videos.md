@@ -12,6 +12,7 @@ Vídeos dedicados à discussão sobre o React e o ecossistema do React.
 
 ### React Conf 2019 {#react-conf-2019}
 
+<<<<<<< HEAD
 Uma playlist de vídeos do React Conf 2019.
 <iframe title="React Conf 2019" width="650" height="366" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh" frameborder="0" allowfullscreen></iframe>
 
@@ -19,6 +20,15 @@ Uma playlist de vídeos do React Conf 2019.
 
 Uma playlist de vídeos do React Conf 2018.
 <iframe title="React Conf 2018" width="650" height="366" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLPxbbTqCLbGE5AihOSExAa4wUM-P42EIJ" frameborder="0" allowfullscreen></iframe>
+=======
+A playlist of videos from React Conf 2019.
+<iframe title="React Conf 2019" width="650" height="366" src="https://www.youtube-nocookie.com/embed/playlist?list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh" frameborder="0" allowfullscreen></iframe>
+
+### React Conf 2018 {#react-conf-2018}
+
+A playlist of videos from React Conf 2018.
+<iframe title="React Conf 2018" width="650" height="366" src="https://www.youtube-nocookie.com/embed/playlist?list=PLPxbbTqCLbGE5AihOSExAa4wUM-P42EIJ" frameborder="0" allowfullscreen></iframe>
+>>>>>>> 446345cfba91b62546f46f88fad893937a826cdc
 
 ### React.js Conf 2017 {#reactjs-conf-2017}
 
