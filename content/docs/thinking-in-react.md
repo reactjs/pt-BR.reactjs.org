@@ -84,7 +84,11 @@ Para tornar sua UI interativa, você precisa poder desencadear mudanças no seu 
 
 Para construir seu app corretamente, você primeiro deve pensar no conjunto mínimo de estados mutáveis que ele precisa. A chave aqui é [DRY: *Don't Repeat Yourself*](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (_Não repita a si mesmo_). Descubra a representação mínima do state que a sua aplicação precisa e compute todo o resto sob demanda. Por exemplo, se você está criando uma lista de afazeres, mantenha um array com cada item a ser feito; não tenha uma variável de state separada para a contagem. Ao contrário, quando você quiser renderizar a quantidade de afazeres, simplesmente calcule o comprimento do array.
 
+<<<<<<< HEAD
 Pense em todos os pedaços de dados do nosso exemplo. Nós temos:
+=======
+Think of all the pieces of data in our example application. We have:
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
   * A lista original de produtos
   * O texto de busca que o usuário digitou

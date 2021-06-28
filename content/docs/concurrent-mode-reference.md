@@ -16,9 +16,18 @@ prev: concurrent-mode-adoption.html
 
 >Cuidado:
 >
+<<<<<<< HEAD
 >Esta página descreve os **recursos experimentais que ainda [não estão disponíveis](/docs/concurrent-mode-adoption.html) em um release estável**. Não confie nas versões experimentais do React em aplicativos de produção. Esses recursos podem mudar significativamente e sem aviso antes de se tornarem parte do React.
 >
 >Esta documentação é destinada a adotante precoces e pessoas curiosas. **Se você é novo no React, não se preocupe com esses recursos** -- não precisa aprendê-los agora.
+=======
+>This page was about experimental features that aren't yet available in a stable release. It was aimed at early adopters and people who are curious.
+>
+>Much of the information on this page is now outdated and exists only for archival purposes. **Please refer to the [React 18 Alpha announcement post](/blog/2021/06/08/the-plan-for-react-18.html
+) for the up-to-date information.**
+>
+>Before React 18 is released, we will replace this page with stable documentation.
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
 </div>
 
@@ -59,7 +68,11 @@ Para mais informações sobre o Modo Concorrente, consulte a [documentação do 
 
 `Suspense` permite que seus componentes "esperem" por algo antes que eles possam renderizar, mostrando um fallback enquanto aguardam.
 
+<<<<<<< HEAD
 Neste exemplo, `ProfileDetails` está aguardando uma chamada de API assíncrona para buscar alguns dados. Enquanto aguardamos o `ProfileDetails` e o `ProfilePhoto`, mostraremos o `Carregando...` como fallback. É importante observar que até que todos os filhos dentro de `<Suspense>` sejam carregados, continuaremos a mostrar o fallback.
+=======
+In this example, `ProfileDetails` is waiting for an asynchronous API call to fetch some data. While we wait for `ProfileDetails` and `ProfilePhoto`, we will show the `Loading...` fallback instead. It is important to note that until all children inside `<Suspense>` have loaded, we will continue to show the fallback.
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
 `Suspense` recebe duas props:
 * **fallback** recebe um indicador de carregamento. O fallback é mostrado até que todos os filhos do componente `Suspense` tenham concluído a renderização.

@@ -18,7 +18,11 @@ Cada um dos canais de release do React foram projetados para um caso de uso dist
 - [**Next**](#next-channel) acompanha a branch master do repositório de código fonte do React. Pense nisso como candidatos a release para o próximo minor semver release. Use isso para teste de integração entre React e projetos de terceiros.
 - [**Experimental**](#experimental-channel) inclui APIs experimentais e recursos que não estão disponíveis nas releases estáveis. Eles também acompanham a branch master, mas com flags de recursos adicionais ativadas. Use isso para experimentar os próximos recursos antes de serem lançados.
 
+<<<<<<< HEAD
 Todos os releases são publicados no npm, mas apenas os Latest usam [versionamento semântico](/docs/faq-versioning.html). Os prereleases (aqueles nos canais Next e Experimental) têm versões geradas a partir de um hash de seu conteúdo, por exemplo `0.0.0-1022ee0ec` para Next e `0.0.0-experimental-1022ee0ec` para Experimental.
+=======
+All releases are published to npm, but only Latest uses [semantic versioning](/docs/faq-versioning.html). Prereleases (those in the Next and Experimental channels) have versions generated from a hash of their contents and the commit date, e.g. `0.0.0-68053d940-20210623` for Next and `0.0.0-experimental-68053d940-20210623` for Experimental.
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
 **O único canal de release oficialmente suportado para aplicações voltadas para o usuário final é o Latest**. Next e Experimental releases são fornecidos apenas para fins de teste e não fornecemos garantias de que o comportamento não seja alterado entre as versões. Eles não seguem o protocolo semver que usamos para releases no Latest.
 
@@ -40,7 +44,11 @@ O grau de alteração entre o release mais recente do Next e a versão mais rece
 
 **Não use prereleases em aplicações voltadas para o usuário final.**
 
+<<<<<<< HEAD
 Releases no Next são publicadas com a tag `next` no npm. As versões são geradas a partir de um hash do conteúdo do build, por exemplo `0.0.0-1022ee0ec`.
+=======
+Releases in Next are published with the `next` tag on npm. Versions are generated from a hash of the build's contents and the commit date, e.g. `0.0.0-68053d940-20210623`.
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
 #### Usando o Canal Next para Testes de Integração {#using-the-next-channel-for-integration-testing}
 
@@ -76,7 +84,11 @@ Geralmente, uma atualização para Next é acompanhada por uma atualização cor
 
 Os releases Experimental podem ser significativamente diferentes dos releases Next e Latest. **Não use releases Experimental em aplicações voltadas para o usuário final.** Você deve esperar breaking changes frequentes entre releases no canal Experimental.
 
+<<<<<<< HEAD
 Releases no Experimental são publicados com a tag `experimental` no npm. As versões são geradas a partir de um hash do conteúdo do build, por exemplo `0.0.0-experimental-1022ee0ec`.
+=======
+Releases in Experimental are published with the `experimental` tag on npm. Versions are generated from a hash of the build's contents and the commit date, e.g. `0.0.0-experimental-68053d940-20210623`.
+>>>>>>> 25f756d8e3800afb032cb31ce3626d6134e31e38
 
 #### O Que Entra em um Release Experimental? {#what-goes-into-an-experimental-release}
 
